@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 24px;
+}
+
+p {
+    color: aqua;
+    font-size: 16px;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:  solid #4dde14;
+}
+ul{
+    color: black;
+    font-size: 10px;
+    list-style-type: "Musor-Drop";
+}
+
+input{
+     width: 50%;
+     border: 2px solid #421;
+     border-radius: 10px;
+     font-size: 14px;
+}
+
+input:focus{
+    border-color: antiquewhite;
+}
+button{
+    background-color: brown;
+    color: black;
+}
+button:hover{
+    background-color: deepskyblue;
+    transition: 0.3s;
+    cursor: pointer;
+}
